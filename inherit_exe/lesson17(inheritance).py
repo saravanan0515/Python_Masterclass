@@ -40,5 +40,13 @@ print("---output for sapmle 3--- ")
 class app1: #parent
     def v1(self):
         print("orders")
-a=app1()
+class app1_1(app1):#OVERWRITE THE PARENT CODE
+    def v2(self):
+        print("refund")
+    def v1(self):
+        print("cart")
+      
+a=app1_1()
 a.v1()
+a.v2()
+
