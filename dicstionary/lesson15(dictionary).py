@@ -1,5 +1,5 @@
 #dicstionarysave in key and value 
-
+print("---op for sample 1---")
 trip ={
     "trip_id":"UBH947",
     "pickup":"chennai central",
@@ -74,4 +74,5 @@ for location in trip["pickup"]:
 #cbe
 #chennai
 
-#we can store more no of dicstionary
+#we can store more no of dicstionary in list 
+ 

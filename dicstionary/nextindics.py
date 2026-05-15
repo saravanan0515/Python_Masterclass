@@ -1,4 +1,6 @@
-#we can store more no of dicstionary in list 
+#we can store more no of dicstionary in list \
+
+print("--sample 1 op--")
 trips = [
     {"trip_id":"UBGF23" , "pickup_up": "chennai", "drop":"airport","fare":235},
     {"trip_id":"UBGF44" , "pickup_up": "t-nagar", "drop":"valechery","fare":233},
@@ -10,8 +12,9 @@ for trip in trips:
 #only show the all trip_id in trips 
 
 
-#another metjod without using list,but we need to manually define the value 
+#another method without using list,but we need to manually define the value 
 #like assigning for certain user
+print("---sample 2 op---")
 trips = {
    "UBGF23": {"trip_id":"UBGF23" , "pickup_up": "chennai", "drop":"airport","fare":235},
    "UBGF44": {"trip_id":"UBGF44" , "pickup_up": "t-nagar", "drop":"valechery","fare":233},

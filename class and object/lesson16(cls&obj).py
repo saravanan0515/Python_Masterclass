@@ -11,6 +11,7 @@ s1.say_hello() #here we call the method using the caller s1
 #here this is how python understand s1.say_hello(s1),calling from s1 
 """
 #another ex
+print("---op for sample 1---")
 class student:
     def __init__(self, name, grade):
         self.name =  name
@@ -27,3 +28,8 @@ s3=student(name="sar",grade=3)
 s1.display()
 s2.display()
 s3.display()
+
+#output is 
+#abi is in grade1
+#aj is in grade2
+#sar is in grade3

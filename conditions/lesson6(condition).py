@@ -7,7 +7,7 @@
 #OR CONDITION IS USED TO CHECK IF ANY ONE OF THE CONDITIONS IS TRUE THEN IT WILL EXECUTE THE CODE INSIDE THE OR BLOCK OTHERWISE IT WILL NOT EXECUTE THE CODE INSIDE THE OR BLOCK
 #NOT CONDITION IS USED TO CHECK IF THE CONDITION IS FALSE THEN IT WILL EXECUTE THE CODE INSIDE THE NOT BLOCK OTHERWISE IT WILL NOT EXECUTE THE CODE INSIDE THE NOT BLOCK
 
-
+print("--op for sample 1--")
 age = 20
 if age >= 18: #this is used to check if the age is greater than or equal to 18 or not, if it is greater than or equal to 18 then it will print the message below otherwise it will not print anything
     print("you are eligible to vote") #output will be like this you are eligible to vote
@@ -16,6 +16,7 @@ else :
 
 #another example of if condition
 #colors = input("Enter a color: ")
+print("--op for sample 2--")
 colors = "red"
 if colors == "red": #this is used to check if the color entered by the user is red or not, if it is red then it will print the message below otherwise it will not print anything
     print("stop") #output will be like this stop
@@ -28,7 +29,7 @@ else:
 
 
 #nested if condition
-
+print("---op for sample3---")
 age = int(input("enter your age: "))
 has_id = input("do you have id? (yes/no): ")
 if age >= 18 :
@@ -44,7 +45,7 @@ else:
 
 
 #not use nested if condition but use and condition to check both the conditions in one line
-
+print("---op for smaple 4---")
 if age >= 18 and has_id == "yes": #use and condition to check if both the conditions are true or not, if both the conditions are true then it will print the message below otherwise it will not print anything
 #if we use or condition then it will check if any one of the conditions is true or not, if any one of the conditions is true then it will print the message below otherwise it will not print anything
     print("you are eligible for driving license")
@@ -56,7 +57,7 @@ else:
 
 #NOW WE USE in KEYWORD TO CHECK IF THE TARGET WORD IS PRESENT IN THE STRING OR NOT
 #NOW BUILT APP TO GIVE OFFER FOR SPEICAL DAY OR SPECIAL ORDER AMOUNT OR SPECIAL MEMBERSHIP
-
+print("--- op for sample 5--")
 order_amount = int(input("enter your order amount: "))
 day = input("enter the day: ")
 membership = input("enter your membership status (yes/no): ")
