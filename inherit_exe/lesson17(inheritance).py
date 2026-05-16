@@ -47,6 +47,6 @@ class app1_1(app1):#OVERWRITE THE PARENT CODE
         print("cart")
       
 a=app1_1()
-a.v1()
+a.v1() #only take from the overwritted code from the child
 a.v2()
 
