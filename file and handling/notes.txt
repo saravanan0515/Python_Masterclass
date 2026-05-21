@@ -1,0 +1,3 @@
+welcome to the file (created)!
+new file created bcz file not exist!!
+adding a new line using append.

@@ -1,0 +1,14 @@
+info: application started 
+info:user login completed
+warning:disk sapce low
+error: failed to connect to db
+info:scheduled task started
+error:null pointer exception occured
+info:application shutdown
+info: application started 
+info:user login completed
+warning:disk sapce low
+error: failed to connect to db
+info:scheduled task started
+error:null pointer exception occured
+info:application shutdown
