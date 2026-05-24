@@ -7,3 +7,8 @@ print("thank you your feedback is saved!!")
 
 #if i give very good in feedback input that save in feedback.txt
 # we can give another feedback 
+ #output
+# ery good session****
+#average
+
+#appending a feedbacks

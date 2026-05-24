@@ -13,7 +13,7 @@ class featurePlan(ABC):
     @abstractmethod
     def logout(self):
         pass
-
+#we can give pass or give any function
     #this both are abstracted methods,if i give without @abstractmethod ,this mean normal method.
     def checkout(self):
         pass
