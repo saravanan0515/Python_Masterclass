@@ -6,7 +6,7 @@ import pymysql
 Connection = pymysql.connect(
     host= 'localhost',
     user='root',
-    passwd= 'sar@123',
+    passwd= 'pass',
     database= 'test' ,# make sure this db exist 
     cursorclass=pymysql.cursors.DictCursor
 
